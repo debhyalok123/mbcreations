@@ -3,12 +3,239 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AdSense Verification</title>
+  <title>MB CREATIONS | Music That Moves</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3606181918967086" crossorigin="anonymous"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-  <!-- Your actual AdSense code pasted here -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3606181919697096" crossorigin="anonymous"></script>
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background: #121212;
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    header {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      padding: 1.5rem 3rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      width: 100%;
+      z-index: 10;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      margin-left: 2rem;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #1db954;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      padding: 2rem;
+      background: url('https://images.unsplash.com/photo-1585532516874-6c61bbae5b04?auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+      position: relative;
+      text-align: center;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.6);
+      z-index: 1;
+    }
+
+    .hero h2, .hero p {
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero h2 {
+      font-size: 3.5rem;
+      color: #1db954;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+      max-width: 600px;
+    }
+
+    section {
+      padding: 6rem 2rem 4rem;
+      text-align: center;
+    }
+
+    .glass {
+      background: rgba(255,255,255,0.08);
+      border-radius: 12px;
+      padding: 2.5rem;
+      margin: 3rem auto;
+      max-width: 900px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+      backdrop-filter: blur(14px);
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #1db954;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .videos iframe {
+      margin: 1rem;
+      width: 100%;
+      max-width: 400px;
+      height: 225px;
+      border-radius: 12px;
+    }
+
+    .music-player audio {
+      width: 100%;
+      max-width: 400px;
+      margin: 1rem auto;
+      display: block;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 12px;
+    }
+
+    footer {
+      padding: 2rem;
+      text-align: center;
+      background: #000;
+      font-size: 0.9rem;
+      color: #888;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .hero h2 {
+        font-size: 2.2rem;
+      }
+
+      nav a {
+        margin-left: 0;
+        margin-right: 1rem;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h1>Site for AdSense Verification</h1>
+  <header>
+    <h1>MB CREATIONS</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#releases">New Releases</a>
+      <a href="#music">Music</a>
+      <a href="#gallery">Gallery</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Music That Moves</h2>
+    <p>Feel the beat. Fuel the vibe. Follow the future of sound with MB CREATIONS.</p>
+  </section>
+
+  <section id="about">
+    <div class="glass">
+      <h2>About Us</h2>
+      <p>MB CREATIONS is redefining the music landscape. We're a label with heart, tech, and talent — fusing sound innovation with artistic freedom. We empower creators to go beyond the norm and connect through rhythm.</p>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="glass">
+      <h2>Our Services</h2>
+      <p>From high-end audio production to artist promotion, we do it all. Studio sessions, branding, distribution, and viral campaigns — crafted to launch your sound to the world stage.</p>
+    </div>
+  </section>
+
+  <section id="releases">
+    <div class="glass">
+      <h2>New Releases</h2>
+      <p>🎵 "Echoes" by Arya — out now<br>
+         🎵 "Midnight Frequencies" by Kairo — dropping this Friday<br>
+         🎵 "Lo-Fi Diaries Vol. 2" — streaming worldwide</p>
+    </div>
+  </section>
+
+  <section id="music">
+    <div class="glass">
+      <h2>Listen Now</h2>
+      <div class="videos">
+        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/M7FIvfx5J10" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="music-player">
+        <audio controls>
+          <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="glass">
+      <h2>Behind the Scenes</h2>
+      <div class="gallery">
+        <img src="https://source.unsplash.com/300x300/?music,studio" alt="Studio 1">
+        <img src="https://source.unsplash.com/300x300/?artist,concert" alt="Concert">
+        <img src="https://source.unsplash.com/300x300/?recording,music" alt="Recording">
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MB CREATIONS | Built with rhythm and precision</p>
+  </footer>
 </body>
 </html>
